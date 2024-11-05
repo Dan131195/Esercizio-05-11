@@ -79,8 +79,8 @@ if (totalShoppingCart2 - sale < 50) {
 */
 
 let x = 1;
-let y = 5;
-let z = 10;
+let y = 3;
+let z = 2;
 
 if (x > y && y > z) {
   console.log(x, y, z);
@@ -90,7 +90,7 @@ if (x > y && y > z) {
   console.log(z, y, x)
 } else if (z > y && z > x && x > y) {
   console.log(z, x, y)
-} else if (y > x && z > x && z > y) {
+} else if (y > x && y > z && z > x) {
   console.log(y, z, x)
 } else {
   console.log(y, x, z)
